@@ -126,7 +126,6 @@ body {
 
 .hero-section {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(images/people-office.jpg);
@@ -135,8 +134,10 @@ body {
     color: #FFFFFF;
     text-align: center;
     padding: 188px;
-    height: 100%;
-    text-align: center;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 auto;
 }
 
 .hero-section .t56 {
